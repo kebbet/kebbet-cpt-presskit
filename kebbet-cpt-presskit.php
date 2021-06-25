@@ -13,11 +13,12 @@
 
 namespace cpt\kebbet\presskit;
 
-const POSTTYPE = 'presskit';
-const SLUG     = 'press';
-const ICON     = 'paperclip';
-const MENUPOS  = 22;
-const THUMBNAIL = true;
+const POSTTYPE    = 'presskit';
+const SLUG        = 'press';
+const ICON        = 'paperclip';
+const MENUPOS     = 22;
+const THUMBNAIL   = true;
+const ARCHIVE_OPT = false;
 
 /**
  * Link to ICONS
@@ -117,12 +118,6 @@ function register() {
 		$supports_args = array_merge( $supports_args, array( 'thumbnail' ) );
 	}
 
-	$rewrite_args      = array(
-		'slug'       => SLUG,
-		'with_front' => false,
-		'pages'      => false,
-		'feeds'      => true,
-	);
 	$capabilities_args = array(
 		'edit_post'          => 'edit_' . POSTTYPE,
 		'edit_posts'         => 'edit_' . POSTTYPE .'s',
@@ -138,8 +133,8 @@ function register() {
 		'labels'              => $labels_args,
 		'supports'            => $supports_args,
 		'taxonomies'          => array(),
-		'hierarchical'        => true,
-		'public'              => true,
+		'hierarchical'        => false,
+		'public'              => false,
 		'show_ui'             => true,
 		'show_in_menu'        => true,
 		'menu_position'       => MENUPOS,
@@ -147,10 +142,10 @@ function register() {
 		'show_in_admin_bar'   => true,
 		'show_in_nav_menus'   => true,
 		'can_export'          => true,
-		'has_archive'         => false, //SLUG,
-		'exclude_from_search' => false,
-		'publicly_queryable'  => true,
-		'rewrite'             => $rewrite_args,
+		'has_archive'         => false,
+		'exclude_from_search' => true,
+		'publicly_queryable'  => false,
+		'rewrite'             => false,
 		'capabilities'        => $capabilities_args,
 		// Adding map_meta_cap will map the meta correctly.
 		'show_in_rest'        => true,
@@ -289,4 +284,7 @@ function add_options_page() {
 		) );
 	}
 }
-add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+
+if ( true === ARCHIVE_OPT ) {
+	add_action( 'plugins_loaded', __NAMESPACE__ . '\add_options_page' );
+}

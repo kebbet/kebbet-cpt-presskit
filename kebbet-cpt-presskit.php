@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: Presskit
  * Plugin URI:  
  * Description: Registers a Custom Post Type.
- * Version:     20210616.01
+ * Version:     20210627.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
  *
@@ -159,8 +159,9 @@ function register() {
  */
 function add_custom_capabilities() {
 
-	// Gets the administrator role
+	// Gets the editor and administrator roles.
 	$admins = get_role( 'administrator' );
+	$editor = get_role( 'editor' );
 
 	// Add custom capabilities.
 	$admins->add_cap( 'edit_' . POSTTYPE );
@@ -171,6 +172,13 @@ function add_custom_capabilities() {
 	$admins->add_cap( 'read_private_' . POSTTYPE .'s' );
 	$admins->add_cap( 'delete_' . POSTTYPE );
 
+	$editor->add_cap( 'edit_' . POSTTYPE );
+	$editor->add_cap( 'edit_' . POSTTYPE .'s' );
+	$editor->add_cap( 'edit_others_' . POSTTYPE .'s' );
+	$editor->add_cap( 'publish_' . POSTTYPE .'s' );
+	$editor->add_cap( 'read_' . POSTTYPE .'s' );
+	$editor->add_cap( 'read_private_' . POSTTYPE .'s' );
+	$editor->add_cap( 'delete_' . POSTTYPE );
 }
 add_action( 'admin_init', __NAMESPACE__ . '\add_custom_capabilities');
 

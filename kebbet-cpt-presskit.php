@@ -108,9 +108,9 @@ function register() {
 	);
 
 	$supports_args = array(
-		'author',
+		// 'author',
 		'title',
-		'editor',
+		// 'editor',
 		'page-attributes',
 	);
 

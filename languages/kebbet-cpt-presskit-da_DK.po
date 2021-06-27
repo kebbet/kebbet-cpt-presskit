@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebbet plugins - Custom Post Type: Presskit\n"
+"POT-Creation-Date: 2021-06-27 21:34+0200\n"
+"PO-Revision-Date: 2021-06-27 21:36+0200\n"
+"Last-Translator: Erik Betshammar <info@verkan.se>\n"
+"Language-Team: Erik Betshammar <info@verkan.se>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kebbet-cpt-presskit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin-columns.php:39
+msgid "Last modified"
+msgstr "Sidst ændret"
+
+#: inc/admin-columns.php:40 kebbet-cpt-presskit.php:88
+msgid "Featured image"
+msgstr "Fremhævet billede"
+
+#: inc/admin-columns.php:71
+msgid "No image is set."
+msgstr "Der er ikke angivet noget billede."
+
+#. translators: %s: counter of how many posts.
+#: inc/at-a-glance.php:34
+#, php-format
+msgid "%s presskit post"
+msgid_plural "%s presskit posts"
+msgstr[0] "%s presskit indlæg"
+msgstr[1] "%s presskit indlæg"
+
+#: kebbet-cpt-presskit.php:72
+msgctxt "Post Type General Name"
+msgid "Presskits"
+msgstr "Presskits"
+
+#: kebbet-cpt-presskit.php:73
+msgctxt "Post Type Singular Name"
+msgid "Presskit"
+msgstr "Presskit"
+
+#: kebbet-cpt-presskit.php:74
+msgid "Presskits"
+msgstr "Presskits"
+
+#: kebbet-cpt-presskit.php:75
+msgid "Presskit-post"
+msgstr "Presskit-indlæg"
+
+#: kebbet-cpt-presskit.php:76
+msgid "Parent post:"
+msgstr "Overordnet indlæg:"
+
+#: kebbet-cpt-presskit.php:77
+msgid "All posts"
+msgstr "Alle indlæg"
+
+#: kebbet-cpt-presskit.php:78
+msgid "Add new"
+msgstr "Tilføj ny"
+
+#: kebbet-cpt-presskit.php:79
+msgid "Add new post"
+msgstr "Tilføj nyt indlæg"
+
+#: kebbet-cpt-presskit.php:80
+msgid "New post"
+msgstr "Nyt indlæg"
+
+#: kebbet-cpt-presskit.php:81
+msgid "Edit post"
+msgstr "Rediger indlæg"
+
+#: kebbet-cpt-presskit.php:82
+msgid "Update post"
+msgstr "Opdater indlæg"
+
+#: kebbet-cpt-presskit.php:83
+msgid "View post"
+msgstr "Vis indlæg"
+
+#: kebbet-cpt-presskit.php:84
+msgid "View posts"
+msgstr "Vis indlæg"
+
+#: kebbet-cpt-presskit.php:85
+msgid "Search posts"
+msgstr "Søg indlæg"
+
+#: kebbet-cpt-presskit.php:86
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: kebbet-cpt-presskit.php:87
+msgid "No posts found in Trash"
+msgstr "Der blev ikke fundet nogen indlæg i papirkurven"
+
+#: kebbet-cpt-presskit.php:89
+msgid "Set featured image"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:90
+msgid "Remove featured image"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:91
+msgid "Use as featured image"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:92
+msgid "Insert into item"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:93
+msgid "Uploaded to this post"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:94
+msgid "Items list"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:95
+msgid "Items list navigation"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:96
+msgid "Filter items list"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:97
+msgid "Presskit posts archive"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:98
+msgid "Presskit post attributes"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:99
+msgid "Post published"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:100
+msgid "Post published privately"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:101
+msgid "Post reverted to Draft"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:102
+msgid "Post scheduled"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:103
+msgid "Post updated"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:105
+msgid "Filter posts by date"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:106
+msgid "Presskit post link"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:107
+msgid "A link to a presskit post"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:131
+msgid "Presskit post type"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:132
+msgid "Custom post type for presskits"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:202 kebbet-cpt-presskit.php:205
+msgid "Post updated."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:203
+msgid "Custom field updated."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:204
+msgid "Custom field deleted."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: kebbet-cpt-presskit.php:207
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:208
+msgid "Post published."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:209
+msgid "Post saved."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:210
+msgid "Post submitted."
+msgstr ""
+
+#. translators: %1$s: date and time of the scheduled post
+#: kebbet-cpt-presskit.php:213
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:214
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:216
+msgid "Post draft updated."
+msgstr ""
+
+#: kebbet-cpt-presskit.php:224
+msgid "View Post"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:230
+msgid "Preview Post"
+msgstr ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-presskit.php:256
+msgid "%$1s post updated."
+msgid_plural "%$2s posts updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-presskit.php:258
+msgid "%$1s post not updated, somebody is editing it."
+msgid_plural "%$2s posts not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-presskit.php:260
+msgid "%$1s post permanently deleted."
+msgid_plural "%$2s posts permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-presskit.php:262
+msgid "%$1s post moved to the Trash."
+msgid_plural "%$2s posts moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-presskit.php:264
+msgid "%$1s post restored from the Trash."
+msgid_plural "%$2s posts restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kebbet-cpt-presskit.php:288
+msgid "Presskits archive settings"
+msgstr ""
+
+#: kebbet-cpt-presskit.php:289
+msgid "Archive settings for presskits"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Kebbet plugins - Custom Post Type: Presskit"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Registers a Custom Post Type."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Erik Betshammar"
+msgstr "Erik Betshammar"
+
+#. Author URI of the plugin/theme
+msgid "https://verkan.se"
+msgstr "https://verkan.se"

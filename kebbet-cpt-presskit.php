@@ -16,7 +16,7 @@ namespace cpt\kebbet\presskit;
 const POSTTYPE    = 'presskit';
 const SLUG        = 'press';
 const ICON        = 'paperclip';
-const MENUPOS     = 22;
+const MENUPOS     = 27;
 const THUMBNAIL   = true;
 const ARCHIVE_OPT = false;
 
@@ -69,11 +69,10 @@ function load_textdomain() {
 function register() {
 
 	$labels_args       = array(
-		'name'                     => _x( 'Presskits', 'Post Type General Name', 'kebbet-cpt-presskit' ),
-		'singular_name'            => _x( 'Presskit', 'Post Type Singular Name', 'kebbet-cpt-presskit' ),
-		'menu_name'                => __( 'Presskits', 'kebbet-cpt-presskit' ),
-		'name_admin_bar'           => __( 'Presskit-post', 'kebbet-cpt-presskit' ),
-		'parent_item_colon'        => __( 'Parent post:', 'kebbet-cpt-presskit' ),
+		'name'                     => _x( 'Press', 'Post Type General Name', 'kebbet-cpt-presskit' ),
+		'singular_name'            => _x( 'Press', 'Post Type Singular Name', 'kebbet-cpt-presskit' ),
+		'menu_name'                => __( 'Press', 'kebbet-cpt-presskit' ),
+		'name_admin_bar'           => __( 'Press post', 'kebbet-cpt-presskit' ),
 		'all_items'                => __( 'All posts', 'kebbet-cpt-presskit' ),
 		'add_new_item'             => __( 'Add new', 'kebbet-cpt-presskit' ),
 		'add_new'                  => __( 'Add new post', 'kebbet-cpt-presskit' ),
@@ -108,10 +107,7 @@ function register() {
 	);
 
 	$supports_args = array(
-		// 'author',
 		'title',
-		// 'editor',
-		'page-attributes',
 	);
 
 	if ( true === THUMBNAIL ) {

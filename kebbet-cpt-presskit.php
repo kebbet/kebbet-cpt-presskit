@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: Presskit
  * Plugin URI:  https://github.com/kebbet/kebbet-cpt-presskit
  * Description: Registers a Custom Post Type.
- * Version:     20210627.01
+ * Version:     20211111.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
  *
@@ -136,7 +136,7 @@ function register() {
 		'menu_position'       => MENUPOS,
 		'menu_icon'           => 'dashicons-' . ICON,
 		'show_in_admin_bar'   => true,
-		'show_in_nav_menus'   => true,
+		'show_in_nav_menus'   => false,
 		'can_export'          => true,
 		'has_archive'         => false,
 		'exclude_from_search' => true,

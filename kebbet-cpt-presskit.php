@@ -6,6 +6,7 @@
  * Version:     20211111.01
  * Author:      Erik Betshammar
  * Author URI:  https://verkan.se
+ * Update URI:  false
  *
  * @package kebbet-cpt-presskit
  * @author Erik Betshammar
